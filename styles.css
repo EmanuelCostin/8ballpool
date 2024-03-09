@@ -1,0 +1,13 @@
+html {
+    background-image: url(/images/bg-html.jpg) 100%;
+}
+
+.buttons-div1 {
+    border: none;
+    background: transparent;
+    color: blueviolet;
+    font-size: 20px;
+    gap: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
