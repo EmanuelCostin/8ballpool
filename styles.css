@@ -1,13 +1,61 @@
-html {
-    background-image: url(/images/bg-html.jpg) 100%;
-}
-
-.buttons-div1 {
+.buttons-div1, .buttons-div2, .buttons-div3, .buttons-div4 {
     border: none;
     background: transparent;
-    color: blueviolet;
+    color: rgb(74, 247, 11);
     font-size: 20px;
-    gap: 50px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.modal-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    row-gap: 20px;
+}
+
+.close-button {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.index-html {
+    background-color: rgb(138, 61, 210);
+}
+
+.download-html {
+    background-color: #000;
+}
+
+.main-img {
+    border-radius: 10%;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
 }
