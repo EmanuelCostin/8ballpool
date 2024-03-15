@@ -2,7 +2,7 @@
     border: none;
     background: transparent;
     color: rgb(74, 247, 11);
-    font-size: 100px;
+    font-size: 30px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -50,7 +50,7 @@
 }
 
 .download-html {
-    background-color: #000;
+    background-color: rgb(138, 61, 210);
 }
 
 .main-img {
