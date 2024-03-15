@@ -22,7 +22,8 @@
             height: 60px;
             background-color: rgb(65, 65, 230);
             color: #000;
-            margin-left: 40px;
+            margin: 20px auto;
+            display: block;
         }
 
         .share-contact-telegram {
@@ -32,50 +33,66 @@
             height: 60px;
             background-color: rgb(65, 65, 230);
             color: #000;
-            margin-left: 135px;
-            margin-top: 30px;
+            margin: 20px auto;
+            display: block;
         }
 
         input {
-            width: 400px;
+            width: 90%;
             height: 50px;
-            margin-top: 20px;
+            margin: 20px auto;
             border: 2px solid aqua;
-            border-radius: 10px 398px 10px 300px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            padding: 5px;
         }
 
         form {
             margin-top: 50px;
+            text-align: center;
         }
 
         footer {
             background-color: #000;
-            margin-top: 150px;
+            margin-top: 50px;
+            padding: 20px 0;
         }
 
         .contact-side {
             color: grey;
+            text-align: center;
+            margin-bottom: 10px;
         }
 
         .div-footer {
-            margin-top: 30px;
             display: flex;
-            align-items: baseline;
             justify-content: center;
-            flex-direction: row;
-            align-content: center;
+            align-items: center;
             gap: 15px;
+            margin-top: 20px;
         }
 
         .footer-description {
             color: rgb(81, 81, 198);
+            text-align: center;
+            margin-top: 10px;
         }
 
         .footer-h1 {
             color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* Media Query for Mobile */
+        @media screen and (max-width: 600px) {
+            .share-contact, .share-contact-telegram {
+                width: 90%;
+            }
+
+            input {
+                width: 90%;
+            }
         }
     </style>
 </head>
